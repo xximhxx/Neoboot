@@ -2,12 +2,10 @@
   "package": "enigma2-plugin-extensions-neoboot-ibrahem-hamdan",
   "name": "NeoBoot - Ibrahem Hamdan",
   "author": "Ibrahem Hamdan",
-  "version": "10.0",
-  "tag": "v10.0",
-  "sha256": "d88d68d127a757cdda3b4c55d48a03e1c91addad36f8a77efdd229c0d85805af",
-  "url": "",
-  "hardware": [
-    "ARMv7-hard-float-32bit",
-    "MIPSEL-32bit"
-  ]
+  "version": "10",
+  "release": 3,
+  "package_version": "10.0-r3",
+  "sha256": "c1c0da8abbb6d95b689f17661f46d8e5e1ffe577899ee2446a9dc1f5d07339de",
+  "url": "https://raw.githubusercontent.com/xximhxx/Neoboot/main/NeoBoot-Ibrahem-Hamdan.ipk",
+  "notes": "Boot-menu final selection, recorded dates, Version 10 and Ibrahem Hamdan Info screen. Update all installed images from Internal Flash."
 }
