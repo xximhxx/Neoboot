@@ -1,0 +1,13 @@
+{
+  "package": "enigma2-plugin-extensions-neoboot-ibrahem-hamdan",
+  "name": "NeoBoot - Ibrahem Hamdan",
+  "author": "Ibrahem Hamdan",
+  "version": "10.0",
+  "tag": "v10.0",
+  "sha256": "d88d68d127a757cdda3b4c55d48a03e1c91addad36f8a77efdd229c0d85805af",
+  "url": "",
+  "hardware": [
+    "ARMv7-hard-float-32bit",
+    "MIPSEL-32bit"
+  ]
+}
