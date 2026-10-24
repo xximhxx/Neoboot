@@ -3,9 +3,9 @@
   "name": "NeoBoot - Ibrahem Hamdan",
   "author": "Ibrahem Hamdan",
   "version": "10",
-  "release": 3,
-  "package_version": "10.0-r3",
-  "sha256": "c1c0da8abbb6d95b689f17661f46d8e5e1ffe577899ee2446a9dc1f5d07339de",
+  "release": 4,
+  "package_version": "10.0-r4",
+  "sha256": "45836f9c971beb9aca12fe68dc453d893f8f8c68026c058a9f477fdbaad3c4e4",
   "url": "https://raw.githubusercontent.com/xximhxx/Neoboot/main/NeoBoot-Ibrahem-Hamdan.ipk",
-  "notes": "Boot-menu final selection, recorded dates, Version 10 and Ibrahem Hamdan Info screen. Update all installed images from Internal Flash."
+  "notes": "Move plugin backups outside Extensions; support legacy /etc menu paths; persist early-boot diagnostics. Boot menu display still requires hardware validation."
 }
