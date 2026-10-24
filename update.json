@@ -3,9 +3,9 @@
   "name": "NeoBoot - Ibrahem Hamdan",
   "author": "Ibrahem Hamdan",
   "version": "10",
-  "release": 4,
-  "package_version": "10.0-r4",
-  "sha256": "45836f9c971beb9aca12fe68dc453d893f8f8c68026c058a9f477fdbaad3c4e4",
+  "release": 5,
+  "package_version": "10.0-r5",
+  "sha256": "3aa07d0c703836010d0ba832cd4e3088255510ed21a5da08b6c7aa74784a4789",
   "url": "https://raw.githubusercontent.com/xximhxx/Neoboot/main/NeoBoot-Ibrahem-Hamdan.ipk",
-  "notes": "Move plugin backups outside Extensions; support legacy /etc menu paths; persist early-boot diagnostics. Boot menu display still requires hardware validation."
+  "notes": "Initialize symlinked temporary storage before early boot metadata and menu launch; preserve native error output on image storage."
 }
