@@ -3,9 +3,9 @@
   "name": "NeoBoot - Ibrahem Hamdan",
   "author": "Ibrahem Hamdan",
   "version": "10",
-  "release": 5,
-  "package_version": "10.0-r5",
-  "sha256": "3aa07d0c703836010d0ba832cd4e3088255510ed21a5da08b6c7aa74784a4789",
+  "release": 6,
+  "package_version": "10.0-r6",
+  "sha256": "1185be95b5e8569e59ef7ff369c1dfd4477857bce45999492bc9f6ab042de82d",
   "url": "https://raw.githubusercontent.com/xximhxx/Neoboot/main/NeoBoot-Ibrahem-Hamdan.ipk",
-  "notes": "Initialize symlinked temporary storage before early boot metadata and menu launch; preserve native error output on image storage."
+  "notes": "Python 2.7 and legacy Enigma2 import compatibility; avoid missing Flash metadata and BusyBox df crashes when opening the image list."
 }
