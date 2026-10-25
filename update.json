@@ -3,9 +3,9 @@
   "name": "NeoBoot - Ibrahem Hamdan",
   "author": "Ibrahem Hamdan",
   "version": "10",
-  "release": 6,
-  "package_version": "10.0-r6",
-  "sha256": "1185be95b5e8569e59ef7ff369c1dfd4477857bce45999492bc9f6ab042de82d",
+  "release": 7,
+  "package_version": "10.0-r7",
+  "sha256": "cc7005bd07dee4dc53987ce329d88686fc06c36f4bd62462d90b8f8ccfe3ae21",
   "url": "https://raw.githubusercontent.com/xximhxx/Neoboot/main/NeoBoot-Ibrahem-Hamdan.ipk",
-  "notes": "Python 2.7 and legacy Enigma2 import compatibility; avoid missing Flash metadata and BusyBox df crashes when opening the image list."
+  "notes": "720p ARM boot menu with antialiased glyphs and no inactive bottom shortcuts; clearer regular-weight text inside NeoBoot. Python 2 compatibility retained."
 }
