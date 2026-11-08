@@ -1,11 +1,11 @@
 {
-  "package": "enigma2-plugin-extensions-neoboot-ibrahem-hamdan",
   "name": "NeoBoot - Ibrahem Hamdan",
-  "author": "Ibrahem Hamdan",
   "version": "10",
-  "release": 7,
-  "package_version": "10.0-r7",
-  "sha256": "cc7005bd07dee4dc53987ce329d88686fc06c36f4bd62462d90b8f8ccfe3ae21",
-  "url": "https://raw.githubusercontent.com/xximhxx/Neoboot/main/NeoBoot-Ibrahem-Hamdan.ipk",
-  "notes": "720p ARM boot menu with antialiased glyphs and no inactive bottom shortcuts; clearer regular-weight text inside NeoBoot. Python 2 compatibility retained."
+  "release": 8,
+  "package_version": "10.0-r8",
+  "repository": "xximhxx/Neoboot",
+  "package": "enigma2-plugin-extensions-neoboot-ibrahem-hamdan",
+  "sha256": "894e28628f2bba8163c3ece6ab1b018071f5cb26d1dd1cb9decd60efb97f9ee7",
+  "author": "Ibrahem Hamdan",
+  "url": "https://raw.githubusercontent.com/xximhxx/Neoboot/main/NeoBoot-Ibrahem-Hamdan.ipk"
 }
