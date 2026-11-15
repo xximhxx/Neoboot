@@ -1,11 +1,11 @@
 {
   "name": "NeoBoot - Ibrahem Hamdan",
   "version": "11",
-  "release": 1,
-  "package_version": "11.0-r1",
+  "release": 2,
+  "package_version": "11.0-r2",
   "repository": "xximhxx/Neoboot",
   "package": "enigma2-plugin-extensions-neoboot-ibrahem-hamdan",
-  "sha256": "706fa31713e593d6238a41b42a082dec277f8274b2656ec697e724df9d93993b",
+  "sha256": "37e4a7ebd5a03975dc98e4a0c0f3c9bdb4df73463592f55b9adcab9f1984581d",
   "author": "Ibrahem Hamdan",
   "url": "https://raw.githubusercontent.com/xximhxx/Neoboot/main/NeoBoot-Ibrahem-Hamdan.ipk"
 }
