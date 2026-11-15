@@ -1,5 +1,5 @@
 #!/bin/sh
-# NeoBoot - Ibrahem Hamdan | Version 10
+# NeoBoot - Ibrahem Hamdan | Version 11
 set -e
 NEO_PYTHON=''
 for candidate in python python3 python2; do
@@ -30,7 +30,7 @@ except ImportError:
 REPOSITORY = 'xximhxx/Neoboot'
 PACKAGE = 'enigma2-plugin-extensions-neoboot-ibrahem-hamdan'
 ASSET = 'NeoBoot-Ibrahem-Hamdan.ipk'
-CONFIG = '/nonexistent/neoboot-standalone-release.json'
+CONFIG = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'release.json')
 MAX_SIZE = 64 * 1024 * 1024
 
 
@@ -64,7 +64,7 @@ def local_release():
 
 
 def read_url(url, limit):
-    request = Request(url, headers={'User-Agent': 'NeoBoot-Ibrahem-Hamdan/10', 'Cache-Control': 'no-cache'})
+    request = Request(url, headers={'User-Agent': 'NeoBoot-Ibrahem-Hamdan/11', 'Cache-Control': 'no-cache'})
     response = urlopen(request, timeout=30)
     try:
         result = response.read(limit + 1)
@@ -103,12 +103,12 @@ def install(reinstall=False):
     if latest == installed and not reinstall:
         print('You already have the latest build.')
         return 0
-    data = read_url(item['url'] + '?build=' + str(item['release']), MAX_SIZE)
+    data = read_url(item['url'] + '?version=' + item['package_version'], MAX_SIZE)
     if hashlib.sha256(data).hexdigest() != item['sha256']:
         raise ValueError('Checksum mismatch. Wait for GitHub uploads to finish, then retry.')
     if not data.startswith(b'!<arch>\n'):
         raise ValueError('Downloaded file is not an IPK package')
-    folder = tempfile.mkdtemp(prefix='neoboot-10-', dir='/tmp')
+    folder = tempfile.mkdtemp(prefix='neoboot-update-', dir='/tmp')
     try:
         path = os.path.join(folder, ASSET)
         with open(path, 'wb') as handle:
@@ -142,5 +142,4 @@ def main(argv=None):
 
 if __name__ == '__main__':
     sys.exit(main())
-
 NEOBOOT_INSTALLER_PY
